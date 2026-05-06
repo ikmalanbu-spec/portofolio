@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "E-Commerce Luxury",
-    category: "Branding & Web Development",
+    title: "Game Petualangan",
+    category: "Game Development",
   },
   {
-    title: "Corporate Identity",
-    category: "Design & Strategy",
+    title: "Game Edukasi",
+    category: "Game Development",
   },
   {
     title: "Portfolio Landing",
