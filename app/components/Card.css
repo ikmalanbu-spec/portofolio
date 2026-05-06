@@ -1,0 +1,27 @@
+/* ===== Card ===== */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.card:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-card-hover);
+  box-shadow: var(--shadow-glow);
+  transform: translateY(-4px);
+}
+
+.card-header {
+  width: 100%;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-footer {
+  padding: 0 20px 20px;
+}
